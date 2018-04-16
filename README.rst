@@ -5,7 +5,6 @@ xRally plugins for OpenStack platform
 The official mirror of tagged releases of xRally plugins for `OpenStack
 platform <https://openstack.org>`_
 
-
 The goal of the repository
 --------------------------
 
@@ -14,6 +13,12 @@ At the moment it's used to automate Docker image builds for https://hub.docker.c
 
 *This repo is not meant for development*
 
+Tags
+----
+
+* latest - points to master branch of https://github.com/openstack/rally-openstack
+* >= 1.0.0 - tags of https://github.com/openstack/rally-openstack
+* < 1.0.0 - tags of https://github.com/openstack/rally (Rally framework with in-tree OpenStack plugins)
 
 Contribute
 -----------
